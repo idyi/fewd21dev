@@ -1,0 +1,20 @@
+ body {
+    background: #FFFFFF;
+    border: 1px solid black;
+}
+
+/* A comment here */
+
+img {
+        border-style:solid;
+    border-color: black;
+    border-width: :1px;
+}
+
+h2 span {
+    color:#887;
+}
+
+a {
+    color:#900;
+} 
