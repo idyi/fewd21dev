@@ -1,0 +1,107 @@
+body {
+ color:#05080C;
+}
+
+.commonstyles a {
+
+}
+
+.commonstyles small {
+}
+
+.commonstyles strong {
+}
+
+.commonstyles h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.commonstyles h2 {
+  text-decoration: underline;
+}
+
+.commonstyles h3 {
+  margin-top: 42px;
+}
+
+.commonstyles h4 {
+  margin-bottom: 0;
+}
+
+.commonstyles p {
+  font-family: Georgia, serif;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.commonstyles ul {
+  list-style: square;
+}
+
+.commonstyles ul p {
+
+}
+
+.commonstyles li {
+  list-style-type: upper-roman;
+}
+
+.commonstyles hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+}
+
+.commonstyles img {
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center;
+  width: auto;
+}
+
+.commonstyles img[alt] {
+  float: right;
+}
+
+.toc {
+  max-width: 300px;
+  float:right;
+  margin: 40px 10px 10px 10px;
+  border: 1px solid #222222;
+  padding: 10px;
+  background-color: #E5E5E5;
+}
+
+.toc h2 {
+  margin-left: 20px;
+}
+
+.toc .toclevel-1 {
+  font-size: 16px;
+}
+
+.toc .toclevel-1 > a {
+
+}
+
+.toc .toclevel-2 {
+  font-size: 14px;
+}
+
+.toc .toclevel-2 > a {
+  color: #3344aa;
+}
+.datatable {
+  border: 1px solid #222222;
+}
+.datatable td {
+  padding: 8px 14px; 
+}
+.datatable td:first-child{
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+.datatable td:nth-child(2){
+  font-style: italic;
+}
