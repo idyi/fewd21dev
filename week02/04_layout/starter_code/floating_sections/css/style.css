@@ -1,0 +1,105 @@
+/*
+ Floating Sections Code-Along
+
+ Make the header red and 100% width
+ Main should be yellow and 60% wide
+ sideBar should be green and 40% wide
+ pageFooter should be blue and 100% width
+
+ */
+.placeholderH00 {
+	width: 20%;
+	height: 200px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px;
+	float: left;
+}
+
+.placeholderH01 {
+	width: 7%;
+	height: 30px;
+	padding: 50px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	margin: 70px 10px;
+	float: right;
+}
+
+.placeholder {
+	height: 200px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px;
+}
+.placeholder2 {
+	height: 400px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px;
+}
+.placeholder3 {
+	height: 662px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px;
+}
+.placeholder4 {
+	height: 200px;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px;
+}
+.pageHeader {
+	width: 100%;
+	float: left;
+	background-color: red;
+}
+.main1 {
+	width: 75%;
+	float: left;
+	background-color: yellow;
+}
+.main2 {
+	width: 25%;
+	float: left;
+	background-color: yellow;
+}
+.sideBar {
+	width: 25%;
+	float: left;
+	background-color: green;
+}
+.main3 {
+	width: 25%;
+	float: left;
+	background-color: yellow;
+}
+.extrasideBar {
+	width: 25%;
+	float: left;
+	background-color: purple;
+}
+.pageFooter {
+	width: 100%;
+	float: right;
+	background-color: blue;
+}
+.box2 {
+	width: 80%;
+	float: right;
+}
+.box1 {
+	width: 20%;
+	float: left;
+}
+.main4 {
+	width: 100%;
+	float: left;
+	background-color: teal;
+}
