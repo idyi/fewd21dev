@@ -1,0 +1,230 @@
+/***
+  WEEK 02 FEWD-DC-21 ASSIGNMENT 
+  BY DANNY YI 02/11/2016 CSS REVISION 00
+**/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* HTML FRAMEWORK
+/*******************************************/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;  
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* BRAND */
+.r-brand-logo-w {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.r-brand-logo-y {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.r-yellow {
+  background-color: #f9e42e;
+  color: #033048;
+}
+
+.r-blue {
+  background-color: #033048;
+  color: #ffffff;
+}
+
+
+/* CONTENT */
+.content {
+  height: 400px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.pageIntro {
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  color: #fff;
+  height: 475px;
+  padding-top: 32px;
+}
+
+.pageIntro h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 120px 0 75px;
+  text-align: center;
+}
+
+.pageIntro .content a:hover {
+  background-color: #ad9f20;
+}
+
+.pageBenefits {
+  background-color: #f0efef;
+  height: 275px;
+}
+
+.pageBenefits .content {
+  padding: 35px 0;
+  width: 425px;
+}
+
+.content h3 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.pageBenefits p {
+  margin: 20px 0;
+}  
+
+.pageBenefits ul {
+  list-style: disc;
+  margin: 20px 30px;
+}
+
+.pageQuote {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #131e27;
+  height: 275px;
+}
+
+.pageQuote .content {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 90px 30px;
+  text-align: center;
+}
+
+.pageQuote blockquote {
+  font-style: italic;
+}
+
+.pageSUN {
+  background-color: #f9e42e;
+  height: 100px;
+}
+
+.pageSUN .content {
+  padding: 30px 0;
+}
+
+.pageSUN .button {
+  font-size: 12px;
+}
+
+.pageSUN .content a:hover {
+  background-color: #03307F;
+}
+
+.pageFooter {
+  background-color: #121212;
+  height: 275px;
+}
+
+.pageFooter .content {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.pageFooter ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 25px 15px 25px 0;
+}
+
+.pageFooter img {
+  width: 50%;
+}
+
+.pageFooter p {
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+/* ASSETS */
+.button {
+  border-radius: 5px;
+  display: block;
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0 auto;
+  padding: 12px 0;
+  text-align: center;
+  width: 180px;
+}
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
