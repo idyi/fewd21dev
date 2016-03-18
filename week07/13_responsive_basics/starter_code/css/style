@@ -1,0 +1,15 @@
+header,
+header a,
+header span,
+section,
+.box,
+footer {
+	border: 2px solid #333;
+}
+
+nav ul li a {
+	padding: 20px 75px;
+	display: block;
+	float: left;
+	margin-right: 2px;
+}
